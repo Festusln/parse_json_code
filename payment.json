@@ -1,0 +1,409 @@
+{
+    "service": [
+        {
+            "value": 72,
+            "label": "Abuja Electric - AEDC",
+            "serviceID": "abuja_cap",
+            "category_id": 4,
+            "apitype": 10,
+            "logo": "Abuja-Electric.jpg"
+        },
+        {
+            "value": 63,
+            "label": "DSTV",
+            "serviceID": "DSTV_CAPRICON",
+            "category_id": 3,
+            "apitype": 9,
+            "logo": "Pay-DSTV-Subscription.jpg"
+        },
+        {
+            "value": 67,
+            "label": "Eko Electric - EKEDC",
+            "serviceID": "eko_cap_it",
+            "category_id": 4,
+            "apitype": 10,
+            "logo": "Eko-Electric-Payment-PHCN.jpg"
+        },
+        {
+            "value": 64,
+            "label": "GoTv",
+            "serviceID": "GOTV_CAPRICON",
+            "category_id": 3,
+            "apitype": 9,
+            "logo": "Gotv-Payment.jpg"
+        },
+        {
+            "value": 68,
+            "label": "Ibadan Electric - IBEDC",
+            "serviceID": "ibedc_cap",
+            "category_id": 4,
+            "apitype": 10,
+            "logo": "IBEDC-Ibadan-Electricity-Distribution-Company.jpg"
+        },
+        {
+            "value": 66,
+            "label": "Ikeja Electric - IKEDC",
+            "serviceID": "ikedc_cap_vt",
+            "category_id": 4,
+            "apitype": 10,
+            "logo": "Ikeja-Electric-Payment-PHCN.jpg"
+        },
+        {
+            "value": 71,
+            "label": "Jos Electric - JEDC",
+            "serviceID": "jos_cap",
+            "category_id": 4,
+            "apitype": 10,
+            "logo": "Jos-Electric-JED.jpg"
+        },
+        {
+            "value": 70,
+            "label": "Kaduna Electric - KEDC",
+            "serviceID": "kaduna_cap",
+            "category_id": 4,
+            "apitype": 10,
+            "logo": "kaduna.jpeg"
+        },
+        {
+            "value": 69,
+            "label": "Kano Electric - KEDCO",
+            "serviceID": "kano_cap",
+            "category_id": 4,
+            "apitype": 10,
+            "logo": "Kano-Electric.jpg"
+        },
+        {
+            "value": 17,
+            "label": "Port Harcourt Electric - PHED",
+            "serviceID": "portharcourt-electric",
+            "category_id": 4,
+            "apitype": 1,
+            "logo": "Port-Harcourt-Electric.jpg"
+        },
+        {
+            "value": 65,
+            "label": "Star Times",
+            "serviceID": "STARTIMES_CAPRICON",
+            "category_id": 3,
+            "apitype": 9,
+            "logo": "Startimes-Subscription.jpg"
+        }
+    ],
+    "variation": [
+        {
+            "value": 103,
+            "service_id": 17,
+            "label": "Postpaid",
+            "variation_code": "postpaid",
+            "amount": 0
+        },
+        {
+            "value": 102,
+            "service_id": 17,
+            "label": "Prepaid",
+            "variation_code": "prepaid",
+            "amount": 0
+        },
+        {
+            "value": 598,
+            "service_id": 63,
+            "label": "Compact",
+            "variation_code": "COMPE36",
+            "amount": 7900
+        },
+        {
+            "value": 599,
+            "service_id": 63,
+            "label": "Compact Plus",
+            "variation_code": "COMPLE36",
+            "amount": 12400
+        },
+        {
+            "value": 595,
+            "service_id": 63,
+            "label": "Padi",
+            "variation_code": "NLTESE36",
+            "amount": 1850
+        },
+        {
+            "value": 596,
+            "service_id": 63,
+            "label": "Yanga",
+            "variation_code": "NNJ1E36",
+            "amount": 2565
+        },
+        {
+            "value": 597,
+            "service_id": 63,
+            "label": "Confam",
+            "variation_code": "NNJ2E36",
+            "amount": 4615
+        },
+        {
+            "value": 600,
+            "service_id": 63,
+            "label": "Premium",
+            "variation_code": "PRWE36",
+            "amount": 18400
+        },
+        {
+            "value": 601,
+            "service_id": 64,
+            "label": "Smallie",
+            "variation_code": "GOHAN",
+            "amount": 800
+        },
+        {
+            "value": 604,
+            "service_id": 64,
+            "label": "Max",
+            "variation_code": "GOTVMAX",
+            "amount": 3600
+        },
+        {
+            "value": 602,
+            "service_id": 64,
+            "label": "Jinja",
+            "variation_code": "GOTVNJ1",
+            "amount": 1640
+        },
+        {
+            "value": 603,
+            "service_id": 64,
+            "label": "Jolli",
+            "variation_code": "GOTVNJ2",
+            "amount": 2460
+        },
+        {
+            "value": 897,
+            "service_id": 64,
+            "label": "Supa",
+            "variation_code": "GOTVSUPA",
+            "amount": 5500
+        },
+        {
+            "value": 624,
+            "service_id": 65,
+            "label": "Basic (Antenna) - Monthly",
+            "variation_code": "basic",
+            "amount": 1700
+        },
+        {
+            "value": 622,
+            "service_id": 65,
+            "label": "Basic (Antenna) - Daily",
+            "variation_code": "basicday",
+            "amount": 160
+        },
+        {
+            "value": 623,
+            "service_id": 65,
+            "label": "Basic (Antenna) - Weekly",
+            "variation_code": "basicweek",
+            "amount": 600
+        },
+        {
+            "value": 627,
+            "service_id": 65,
+            "label": "Classic (Antenna) - Monthly",
+            "variation_code": "classic",
+            "amount": 2500
+        },
+        {
+            "value": 625,
+            "service_id": 65,
+            "label": "Classic (Antenna) - Daily",
+            "variation_code": "classicday",
+            "amount": 320
+        },
+        {
+            "value": 626,
+            "service_id": 65,
+            "label": "Classic (Antenna) - Weekly",
+            "variation_code": "classicweek",
+            "amount": 1200
+        },
+        {
+            "value": 609,
+            "service_id": 65,
+            "label": "Nova (Antenna) - Monthly",
+            "variation_code": "nova",
+            "amount": 900
+        },
+        {
+            "value": 607,
+            "service_id": 65,
+            "label": "Nova (Antenna) - Daily",
+            "variation_code": "novaday",
+            "amount": 90
+        },
+        {
+            "value": 621,
+            "service_id": 65,
+            "label": "Nova (Dish) - Monthly",
+            "variation_code": "novadish",
+            "amount": 900
+        },
+        {
+            "value": 619,
+            "service_id": 65,
+            "label": "Nova (Dish) - Daily",
+            "variation_code": "novadishday",
+            "amount": 90
+        },
+        {
+            "value": 620,
+            "service_id": 65,
+            "label": "Nova (Dish) - Weekly",
+            "variation_code": "novadishweek",
+            "amount": 300
+        },
+        {
+            "value": 608,
+            "service_id": 65,
+            "label": "Nova (Antenna) - Weekly",
+            "variation_code": "novaweek",
+            "amount": 300
+        },
+        {
+            "value": 631,
+            "service_id": 65,
+            "label": "Smart (Dish) - Monthly",
+            "variation_code": "smart",
+            "amount": 2200
+        },
+        {
+            "value": 629,
+            "service_id": 65,
+            "label": "Smart (Dish) - Daily",
+            "variation_code": "smartday",
+            "amount": 200
+        },
+        {
+            "value": 630,
+            "service_id": 65,
+            "label": "Smart (Dish) - Weekly",
+            "variation_code": "smartweek",
+            "amount": 700
+        },
+        {
+            "value": 628,
+            "service_id": 65,
+            "label": "Sport Plus (Dish) - Monthly",
+            "variation_code": "sportplus",
+            "amount": 1200
+        },
+        {
+            "value": 634,
+            "service_id": 65,
+            "label": "Super (Dish) - Monthly",
+            "variation_code": "super",
+            "amount": 4200
+        },
+        {
+            "value": 632,
+            "service_id": 65,
+            "label": "Super (Dish) - Daily",
+            "variation_code": "superday",
+            "amount": 400
+        },
+        {
+            "value": 633,
+            "service_id": 65,
+            "label": "Super (Dish) - Weekly",
+            "variation_code": "superweek",
+            "amount": 1500
+        },
+        {
+            "value": 605,
+            "service_id": 66,
+            "label": "Prepaid",
+            "variation_code": "ikeja_electric_prepaid",
+            "amount": 0
+        },
+        {
+            "value": 606,
+            "service_id": 66,
+            "label": "Postpaid",
+            "variation_code": "vtp_postpaid",
+            "amount": 0
+        },
+        {
+            "value": 611,
+            "service_id": 67,
+            "label": "Postpaid",
+            "variation_code": "eko_electric_postpaid",
+            "amount": 0
+        },
+        {
+            "value": 610,
+            "service_id": 67,
+            "label": "Prepaid",
+            "variation_code": "eko_electric_prepaid",
+            "amount": 0
+        },
+        {
+            "value": 613,
+            "service_id": 68,
+            "label": "Postpaid",
+            "variation_code": "ibadan_electric_postpaid",
+            "amount": 0
+        },
+        {
+            "value": 612,
+            "service_id": 68,
+            "label": "Prepaid",
+            "variation_code": "ibadan_electric_prepaid",
+            "amount": 0
+        },
+        {
+            "value": 615,
+            "service_id": 69,
+            "label": "Postpaid",
+            "variation_code": "kedco_electric_postpaid",
+            "amount": 0
+        },
+        {
+            "value": 614,
+            "service_id": 69,
+            "label": "Prepaid",
+            "variation_code": "kedco_electric_prepaid",
+            "amount": 0
+        },
+        {
+            "value": 616,
+            "service_id": 70,
+            "label": "Prepaid",
+            "variation_code": "kaduna_electric_prepaid",
+            "amount": 0
+        },
+        {
+            "value": 618,
+            "service_id": 71,
+            "label": "Postpaid",
+            "variation_code": "jos_electric_postpaid",
+            "amount": 0
+        },
+        {
+            "value": 617,
+            "service_id": 71,
+            "label": "Prepaid",
+            "variation_code": "jos_electric_prepaid",
+            "amount": 0
+        },
+        {
+            "value": 880,
+            "service_id": 72,
+            "label": "Postpaid",
+            "variation_code": "abuja_electric_postpaid",
+            "amount": 0
+        },
+        {
+            "value": 881,
+            "service_id": 72,
+            "label": "Prepaid",
+            "variation_code": "abuja_electric_prepaid",
+            "amount": 0
+        }
+    ]
+}
