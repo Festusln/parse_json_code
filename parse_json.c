@@ -44,9 +44,8 @@ int main ()
 
     int array_value = services();      //calling the function to check for the required service
 
-
-    size_t no_of_service = 0;
-    size_t no_of_variation = 0;
+  
+    size_t no_of_variation = 0; //getting number of objects in variation object array
 
     no_of_variation = json_object_array_length(variation);
 
@@ -54,8 +53,7 @@ int main ()
     {
         variation_array = json_object_array_get_idx(variation, i);
 
-        //getting each of the object in the array
-    json_object_object_get_ex(variation_array, "service_id", &service_id);
+        json_object_object_get_ex(variation_array, "service_id", &service_id);
 
         //condition to check for the point where value correspond
 
@@ -69,7 +67,7 @@ int main ()
         printf("\n\n");
 
         printf("value : %d\n", json_object_get_int(value));
-        printf("service_id : %d\n", json_object_get_int(service_id));
+        //printf("service_id : %d\n", json_object_get_int(service_id));
         printf("label : %s\n", json_object_get_string(label));
         printf("variation_code : %s\n", json_object_get_string(variation_code));
         printf("amount : %d\n\n", json_object_get_int(amount));
@@ -100,11 +98,13 @@ int main ()
 
             printf("Your selected payment details is: \n");
             printf("value : %d\n", json_object_get_int(value));
-            printf("service_id : %d\n", json_object_get_int(service_id));
+            //printf("service_id : %d\n", json_object_get_int(service_id));
             printf("label : %s\n", json_object_get_string(label));
             printf("variation_code : %s\n", json_object_get_string(variation_code));
             printf("amount : %d\n\n", json_object_get_int(amount));
         }
+
+        
 
     }
     
